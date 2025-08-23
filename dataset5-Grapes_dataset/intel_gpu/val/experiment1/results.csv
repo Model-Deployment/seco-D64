@@ -1,0 +1,2 @@
+Class,Images,Instances,Box(P),Recall,mAP50,mAP50-95,Preprocess (ms),Inference (ms),Loss (ms),Postprocess (ms)
+all,683,3589,0.755,0.622,0.719,0.493,0.6,30.2,0.0,0.6
