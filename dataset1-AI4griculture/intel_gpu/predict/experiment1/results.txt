@@ -1,0 +1,48 @@
+[W824 07:52:05.572890143 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W824 07:52:07.720309902 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading global_model_openvino_model for OpenVINO inference...
+Using OpenVINO LATENCY mode for batch=1 inference on GPU.0...
+
+image 1/24 /app/Datasets/AI4griculture/test/images/1597908100538.jpg: 640x640 (no detections), 32.2ms
+image 2/24 /app/Datasets/AI4griculture/test/images/1597910607190.jpg: 640x640 (no detections), 27.3ms
+image 3/24 /app/Datasets/AI4griculture/test/images/1597912869100.jpg: 640x640 (no detections), 27.2ms
+image 4/24 /app/Datasets/AI4griculture/test/images/1597913530516.jpg: 640x640 (no detections), 27.4ms
+image 5/24 /app/Datasets/AI4griculture/test/images/1597913693056.jpg: 640x640 3 0s, 27.6ms
+image 6/24 /app/Datasets/AI4griculture/test/images/1597922717216.jpg: 640x640 2 0s, 29.0ms
+image 7/24 /app/Datasets/AI4griculture/test/images/1597923601769.jpg: 640x640 1 0, 27.5ms
+image 8/24 /app/Datasets/AI4griculture/test/images/1597923993611.jpg: 640x640 2 0s, 27.3ms
+image 9/24 /app/Datasets/AI4griculture/test/images/1597924240796.jpg: 640x640 1 0, 27.4ms
+image 10/24 /app/Datasets/AI4griculture/test/images/1597932852369.jpg: 640x640 (no detections), 27.6ms
+image 11/24 /app/Datasets/AI4griculture/test/images/1597934907942.jpg: 640x640 1 0, 27.7ms
+image 12/24 /app/Datasets/AI4griculture/test/images/1598001129497.jpg: 640x640 4 0s, 27.3ms
+image 13/24 /app/Datasets/AI4griculture/test/images/1598008270411.jpg: 640x640 8 0s, 27.4ms
+image 14/24 /app/Datasets/AI4griculture/test/images/1598011515988.jpg: 640x640 16 0s, 27.7ms
+image 15/24 /app/Datasets/AI4griculture/test/images/1598012068631.jpg: 640x640 5 0s, 27.4ms
+image 16/24 /app/Datasets/AI4griculture/test/images/1598340934884.jpg: 640x640 (no detections), 27.4ms
+image 17/24 /app/Datasets/AI4griculture/test/images/1598343615131.jpg: 640x640 1 0, 27.3ms
+image 18/24 /app/Datasets/AI4griculture/test/images/1598346355943.jpg: 640x640 (no detections), 28.3ms
+image 19/24 /app/Datasets/AI4griculture/test/images/1599031182869.jpg: 640x640 2 0s, 28.7ms
+image 20/24 /app/Datasets/AI4griculture/test/images/1600245553180.jpg: 640x640 1 0, 28.4ms
+image 21/24 /app/Datasets/AI4griculture/test/images/1601969690309.jpg: 640x640 6 0s, 28.2ms
+image 22/24 /app/Datasets/AI4griculture/test/images/1601980429759.jpg: 640x640 1 0, 27.3ms
+image 23/24 /app/Datasets/AI4griculture/test/images/1601981598827.jpg: 640x640 (no detections), 27.3ms
+image 24/24 /app/Datasets/AI4griculture/test/images/1606994877322.jpg: 640x640 1 0, 27.5ms
+Speed: 2.1ms preprocess, 27.8ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict[0m
+Inference complete. Results saved to inference_benchmark_results.csv
