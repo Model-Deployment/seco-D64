@@ -1,0 +1,52 @@
+[W824 21:40:43.591023698 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W824 21:40:45.720562716 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading global_model_openvino_model for OpenVINO inference...
+Using OpenVINO LATENCY mode for batch=1 inference on GPU.0...
+
+image 1/28 /app/Datasets/wGrape/test/images/IMG_2134.jpg: 640x640 (no detections), 32.3ms
+image 2/28 /app/Datasets/wGrape/test/images/IMG_2145.jpg: 640x640 (no detections), 27.5ms
+image 3/28 /app/Datasets/wGrape/test/images/IMG_2188.jpg: 640x640 (no detections), 27.5ms
+image 4/28 /app/Datasets/wGrape/test/images/IMG_2554.jpg: 640x640 4 0s, 27.4ms
+image 5/28 /app/Datasets/wGrape/test/images/IMG_2561.jpg: 640x640 3 0s, 27.6ms
+image 6/28 /app/Datasets/wGrape/test/images/IMG_2568.jpg: 640x640 5 0s, 27.4ms
+image 7/28 /app/Datasets/wGrape/test/images/IMG_2570.jpg: 640x640 6 0s, 27.5ms
+image 8/28 /app/Datasets/wGrape/test/images/IMG_2592.jpg: 640x640 3 0s, 27.4ms
+image 9/28 /app/Datasets/wGrape/test/images/IMG_2900.jpg: 640x640 5 0s, 27.4ms
+image 10/28 /app/Datasets/wGrape/test/images/_DSC8830.jpg: 640x640 (no detections), 27.3ms
+image 11/28 /app/Datasets/wGrape/test/images/_DSC8856.jpg: 640x640 (no detections), 27.4ms
+image 12/28 /app/Datasets/wGrape/test/images/_DSC8864.jpg: 640x640 1 0, 27.4ms
+image 13/28 /app/Datasets/wGrape/test/images/_DSC8870.jpg: 640x640 (no detections), 27.8ms
+image 14/28 /app/Datasets/wGrape/test/images/_DSC8890.jpg: 640x640 2 0s, 27.5ms
+image 15/28 /app/Datasets/wGrape/test/images/_DSC8903.jpg: 640x640 1 0, 27.2ms
+image 16/28 /app/Datasets/wGrape/test/images/_DSC8914.jpg: 640x640 3 0s, 27.5ms
+image 17/28 /app/Datasets/wGrape/test/images/_DSC8925.jpg: 640x640 1 0, 27.4ms
+image 18/28 /app/Datasets/wGrape/test/images/_DSC8959.jpg: 640x640 (no detections), 27.4ms
+image 19/28 /app/Datasets/wGrape/test/images/_DSC8968.jpg: 640x640 3 0s, 27.4ms
+image 20/28 /app/Datasets/wGrape/test/images/_DSC8969.jpg: 640x640 1 0, 27.4ms
+image 21/28 /app/Datasets/wGrape/test/images/_DSC8983.jpg: 640x640 (no detections), 27.5ms
+image 22/28 /app/Datasets/wGrape/test/images/_DSC9130.jpg: 640x640 2 0s, 27.3ms
+image 23/28 /app/Datasets/wGrape/test/images/_DSC9187.jpg: 640x640 (no detections), 27.4ms
+image 24/28 /app/Datasets/wGrape/test/images/_DSC9304.JPG: 640x640 2 0s, 28.2ms
+image 25/28 /app/Datasets/wGrape/test/images/_DSC9305.JPG: 640x640 2 0s, 28.1ms
+image 26/28 /app/Datasets/wGrape/test/images/_DSC9312.JPG: 640x640 2 0s, 28.3ms
+image 27/28 /app/Datasets/wGrape/test/images/_DSC9325.JPG: 640x640 5 0s, 27.3ms
+image 28/28 /app/Datasets/wGrape/test/images/_DSC9340.jpg: 640x640 8 0s, 27.2ms
+Speed: 1.9ms preprocess, 27.7ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict[0m
+Inference complete. Results saved to inference_benchmark_results.csv
