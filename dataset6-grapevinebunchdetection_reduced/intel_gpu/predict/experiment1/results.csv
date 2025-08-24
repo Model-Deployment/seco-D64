@@ -1,0 +1,11 @@
+Image_Index,Total_Images,Image_Path,Width,Height,Object_Count,Time_ms
+1,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_101402_1.jpg,640,640,1,37.2
+2,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_101453.jpg,640,640,1,31.5
+3,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_103447_1.jpg,640,640,1,31.3
+4,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_103522.jpg,640,640,1,31.4
+5,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_103529_1.jpg,640,640,1,32.7
+6,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_101402_1.jpg,640,640,1,31.5
+7,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_101453.jpg,640,640,1,29.2
+8,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_103447_1.jpg,640,640,1,28.5
+9,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_103522.jpg,640,640,1,28.6
+10,10,/app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_103529_1.jpg,640,640,1,28.7

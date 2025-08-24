@@ -1,0 +1,34 @@
+[W824 13:36:17.979914216 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W824 13:36:20.134749236 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading global_model_openvino_model for OpenVINO inference...
+Using OpenVINO LATENCY mode for batch=1 inference on GPU.0...
+
+image 1/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_101402_1.jpg: 640x640 1 0, 37.2ms
+image 2/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_101453.jpg: 640x640 1 0, 31.5ms
+image 3/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_103447_1.jpg: 640x640 1 0, 31.3ms
+image 4/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_103522.jpg: 640x640 1 0, 31.4ms
+image 5/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle-15_IMG_20220721_103529_1.jpg: 640x640 1 0, 32.7ms
+image 6/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_101402_1.jpg: 640x640 1 0, 31.5ms
+image 7/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_101453.jpg: 640x640 1 0, 29.2ms
+image 8/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_103447_1.jpg: 640x640 1 0, 28.5ms
+image 9/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_103522.jpg: 640x640 1 0, 28.6ms
+image 10/10 /app/Datasets/grapevinebunchdetection_reduced/test/images/angle15_IMG_20220721_103529_1.jpg: 640x640 1 0, 28.7ms
+Speed: 2.3ms preprocess, 31.1ms inference, 1.0ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict[0m
+Inference complete. Results saved to inference_benchmark_results.csv

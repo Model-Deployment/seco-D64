@@ -1,0 +1,5 @@
+Metric,Value
+Preprocess_ms,2.3
+Inference_ms,31.1
+Postprocess_ms,1.0
+Results_Directory,inference_benchmark_results.csv
