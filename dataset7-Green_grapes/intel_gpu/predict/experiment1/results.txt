@@ -1,0 +1,120 @@
+[W824 14:00:35.676882346 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W824 14:00:37.806399425 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+/opt/venv/lib/python3.12/site-packages/intel_extension_for_pytorch/nn/utils/_weight_prepack.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading global_model_openvino_model for OpenVINO inference...
+Using OpenVINO LATENCY mode for batch=1 inference on GPU.0...
+
+image 1/96 /app/Datasets/Green_grapes/test/images/105.png: 640x640 3 0s, 32.6ms
+image 2/96 /app/Datasets/Green_grapes/test/images/116.png: 640x640 3 0s, 28.0ms
+image 3/96 /app/Datasets/Green_grapes/test/images/140.png: 640x640 2 0s, 27.7ms
+image 4/96 /app/Datasets/Green_grapes/test/images/176.png: 640x640 1 0, 27.8ms
+image 5/96 /app/Datasets/Green_grapes/test/images/179.png: 640x640 2 0s, 27.9ms
+image 6/96 /app/Datasets/Green_grapes/test/images/189.png: 640x640 3 0s, 27.7ms
+image 7/96 /app/Datasets/Green_grapes/test/images/192.png: 640x640 4 0s, 27.8ms
+image 8/96 /app/Datasets/Green_grapes/test/images/193.png: 640x640 4 0s, 27.8ms
+image 9/96 /app/Datasets/Green_grapes/test/images/199.png: 640x640 4 0s, 27.8ms
+image 10/96 /app/Datasets/Green_grapes/test/images/24.png: 640x640 7 0s, 27.7ms
+image 11/96 /app/Datasets/Green_grapes/test/images/280.png: 640x640 1 0, 27.8ms
+image 12/96 /app/Datasets/Green_grapes/test/images/281.png: 640x640 2 0s, 28.6ms
+image 13/96 /app/Datasets/Green_grapes/test/images/282.png: 640x640 4 0s, 28.9ms
+image 14/96 /app/Datasets/Green_grapes/test/images/300.png: 640x640 2 0s, 28.9ms
+image 15/96 /app/Datasets/Green_grapes/test/images/302.png: 640x640 2 0s, 28.7ms
+image 16/96 /app/Datasets/Green_grapes/test/images/303.png: 640x640 4 0s, 27.8ms
+image 17/96 /app/Datasets/Green_grapes/test/images/307.png: 640x640 3 0s, 27.6ms
+image 18/96 /app/Datasets/Green_grapes/test/images/31.png: 640x640 6 0s, 28.6ms
+image 19/96 /app/Datasets/Green_grapes/test/images/310.png: 640x640 2 0s, 28.5ms
+image 20/96 /app/Datasets/Green_grapes/test/images/316.png: 640x640 7 0s, 28.8ms
+image 21/96 /app/Datasets/Green_grapes/test/images/323.png: 640x640 5 0s, 28.7ms
+image 22/96 /app/Datasets/Green_grapes/test/images/325.png: 640x640 3 0s, 28.7ms
+image 23/96 /app/Datasets/Green_grapes/test/images/333.png: 640x640 2 0s, 28.7ms
+image 24/96 /app/Datasets/Green_grapes/test/images/339.png: 640x640 3 0s, 28.6ms
+image 25/96 /app/Datasets/Green_grapes/test/images/342.png: 640x640 4 0s, 28.7ms
+image 26/96 /app/Datasets/Green_grapes/test/images/345.png: 640x640 3 0s, 28.8ms
+image 27/96 /app/Datasets/Green_grapes/test/images/350.png: 640x640 3 0s, 27.6ms
+image 28/96 /app/Datasets/Green_grapes/test/images/362.png: 640x640 7 0s, 27.7ms
+image 29/96 /app/Datasets/Green_grapes/test/images/373.png: 640x640 6 0s, 27.6ms
+image 30/96 /app/Datasets/Green_grapes/test/images/379.png: 640x640 3 0s, 27.6ms
+image 31/96 /app/Datasets/Green_grapes/test/images/389.png: 640x640 4 0s, 27.7ms
+image 32/96 /app/Datasets/Green_grapes/test/images/420.png: 640x640 6 0s, 27.6ms
+image 33/96 /app/Datasets/Green_grapes/test/images/428.png: 640x640 3 0s, 27.6ms
+image 34/96 /app/Datasets/Green_grapes/test/images/430.png: 640x640 6 0s, 27.5ms
+image 35/96 /app/Datasets/Green_grapes/test/images/434.png: 640x640 4 0s, 27.6ms
+image 36/96 /app/Datasets/Green_grapes/test/images/442.png: 640x640 5 0s, 27.6ms
+image 37/96 /app/Datasets/Green_grapes/test/images/452.png: 640x640 9 0s, 27.6ms
+image 38/96 /app/Datasets/Green_grapes/test/images/457.png: 640x640 4 0s, 28.6ms
+image 39/96 /app/Datasets/Green_grapes/test/images/464.png: 640x640 6 0s, 28.6ms
+image 40/96 /app/Datasets/Green_grapes/test/images/472.png: 640x640 2 0s, 28.7ms
+image 41/96 /app/Datasets/Green_grapes/test/images/479.png: 640x640 7 0s, 28.4ms
+image 42/96 /app/Datasets/Green_grapes/test/images/486.png: 640x640 5 0s, 28.4ms
+image 43/96 /app/Datasets/Green_grapes/test/images/491.png: 640x640 3 0s, 28.5ms
+image 44/96 /app/Datasets/Green_grapes/test/images/500.png: 640x640 3 0s, 28.9ms
+image 45/96 /app/Datasets/Green_grapes/test/images/503.png: 640x640 4 0s, 28.5ms
+image 46/96 /app/Datasets/Green_grapes/test/images/508.png: 640x640 3 0s, 28.6ms
+image 47/96 /app/Datasets/Green_grapes/test/images/530.png: 640x640 5 0s, 28.4ms
+image 48/96 /app/Datasets/Green_grapes/test/images/540.png: 640x640 3 0s, 28.5ms
+image 49/96 /app/Datasets/Green_grapes/test/images/546.png: 640x640 5 0s, 28.5ms
+image 50/96 /app/Datasets/Green_grapes/test/images/547.png: 640x640 6 0s, 28.6ms
+image 51/96 /app/Datasets/Green_grapes/test/images/55.png: 640x640 6 0s, 28.6ms
+image 52/96 /app/Datasets/Green_grapes/test/images/563.png: 640x640 6 0s, 28.5ms
+image 53/96 /app/Datasets/Green_grapes/test/images/569.png: 640x640 6 0s, 28.5ms
+image 54/96 /app/Datasets/Green_grapes/test/images/573.png: 640x640 4 0s, 28.5ms
+image 55/96 /app/Datasets/Green_grapes/test/images/597.png: 640x640 3 0s, 28.6ms
+image 56/96 /app/Datasets/Green_grapes/test/images/600.png: 640x640 3 0s, 28.5ms
+image 57/96 /app/Datasets/Green_grapes/test/images/627.png: 640x640 4 0s, 28.6ms
+image 58/96 /app/Datasets/Green_grapes/test/images/629.png: 640x640 3 0s, 28.5ms
+image 59/96 /app/Datasets/Green_grapes/test/images/634.png: 640x640 1 0, 28.5ms
+image 60/96 /app/Datasets/Green_grapes/test/images/638.png: 640x640 3 0s, 28.6ms
+image 61/96 /app/Datasets/Green_grapes/test/images/66.png: 640x640 3 0s, 28.5ms
+image 62/96 /app/Datasets/Green_grapes/test/images/674.png: 640x640 1 0, 28.5ms
+image 63/96 /app/Datasets/Green_grapes/test/images/681.png: 640x640 2 0s, 28.5ms
+image 64/96 /app/Datasets/Green_grapes/test/images/690.png: 640x640 2 0s, 28.5ms
+image 65/96 /app/Datasets/Green_grapes/test/images/702.png: 640x640 5 0s, 28.5ms
+image 66/96 /app/Datasets/Green_grapes/test/images/708.png: 640x640 4 0s, 28.5ms
+image 67/96 /app/Datasets/Green_grapes/test/images/711.png: 640x640 3 0s, 28.6ms
+image 68/96 /app/Datasets/Green_grapes/test/images/728.png: 640x640 1 0, 28.7ms
+image 69/96 /app/Datasets/Green_grapes/test/images/73.png: 640x640 1 0, 28.5ms
+image 70/96 /app/Datasets/Green_grapes/test/images/732.png: 640x640 2 0s, 27.5ms
+image 71/96 /app/Datasets/Green_grapes/test/images/741.png: 640x640 2 0s, 28.5ms
+image 72/96 /app/Datasets/Green_grapes/test/images/759.png: 640x640 1 0, 28.5ms
+image 73/96 /app/Datasets/Green_grapes/test/images/761.png: 640x640 2 0s, 28.5ms
+image 74/96 /app/Datasets/Green_grapes/test/images/763.png: 640x640 1 0, 28.6ms
+image 75/96 /app/Datasets/Green_grapes/test/images/775.png: 640x640 3 0s, 28.5ms
+image 76/96 /app/Datasets/Green_grapes/test/images/779.png: 640x640 3 0s, 28.5ms
+image 77/96 /app/Datasets/Green_grapes/test/images/79.png: 640x640 2 0s, 28.6ms
+image 78/96 /app/Datasets/Green_grapes/test/images/790.png: 640x640 2 0s, 28.7ms
+image 79/96 /app/Datasets/Green_grapes/test/images/797.png: 640x640 3 0s, 28.5ms
+image 80/96 /app/Datasets/Green_grapes/test/images/814.png: 640x640 3 0s, 28.5ms
+image 81/96 /app/Datasets/Green_grapes/test/images/823.png: 640x640 4 0s, 28.7ms
+image 82/96 /app/Datasets/Green_grapes/test/images/836.png: 640x640 3 0s, 28.4ms
+image 83/96 /app/Datasets/Green_grapes/test/images/84.png: 640x640 3 0s, 28.5ms
+image 84/96 /app/Datasets/Green_grapes/test/images/866.png: 640x640 3 0s, 28.5ms
+image 85/96 /app/Datasets/Green_grapes/test/images/876.png: 640x640 2 0s, 28.6ms
+image 86/96 /app/Datasets/Green_grapes/test/images/88.png: 640x640 2 0s, 28.5ms
+image 87/96 /app/Datasets/Green_grapes/test/images/880.png: 640x640 6 0s, 28.6ms
+image 88/96 /app/Datasets/Green_grapes/test/images/9.png: 640x640 3 0s, 28.5ms
+image 89/96 /app/Datasets/Green_grapes/test/images/903.png: 640x640 2 0s, 28.5ms
+image 90/96 /app/Datasets/Green_grapes/test/images/907.png: 640x640 4 0s, 28.6ms
+image 91/96 /app/Datasets/Green_grapes/test/images/912.png: 640x640 4 0s, 27.6ms
+image 92/96 /app/Datasets/Green_grapes/test/images/915.png: 640x640 2 0s, 27.6ms
+image 93/96 /app/Datasets/Green_grapes/test/images/917.png: 640x640 1 0, 27.6ms
+image 94/96 /app/Datasets/Green_grapes/test/images/933.png: 640x640 6 0s, 27.7ms
+image 95/96 /app/Datasets/Green_grapes/test/images/950.png: 640x640 2 0s, 27.7ms
+image 96/96 /app/Datasets/Green_grapes/test/images/97.png: 640x640 4 0s, 27.7ms
+Speed: 1.6ms preprocess, 28.3ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict[0m
+Inference complete. Results saved to inference_benchmark_results.csv
