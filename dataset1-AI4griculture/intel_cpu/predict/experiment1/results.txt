@@ -1,0 +1,37 @@
+[W826 07:31:16.752474182 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+Loading global_model_openvino_model for OpenVINO inference...
+Using OpenVINO LATENCY mode for batch=1 inference on CPU...
+
+image 1/24 /app/Datasets/AI4griculture/test/images/1597908100538.jpg: 640x640 (no detections), 72.7ms
+image 2/24 /app/Datasets/AI4griculture/test/images/1597910607190.jpg: 640x640 (no detections), 67.7ms
+image 3/24 /app/Datasets/AI4griculture/test/images/1597912869100.jpg: 640x640 (no detections), 72.1ms
+image 4/24 /app/Datasets/AI4griculture/test/images/1597913530516.jpg: 640x640 (no detections), 67.5ms
+image 5/24 /app/Datasets/AI4griculture/test/images/1597913693056.jpg: 640x640 3 0s, 68.9ms
+image 6/24 /app/Datasets/AI4griculture/test/images/1597922717216.jpg: 640x640 2 0s, 67.6ms
+image 7/24 /app/Datasets/AI4griculture/test/images/1597923601769.jpg: 640x640 (no detections), 67.7ms
+image 8/24 /app/Datasets/AI4griculture/test/images/1597923993611.jpg: 640x640 2 0s, 67.7ms
+image 9/24 /app/Datasets/AI4griculture/test/images/1597924240796.jpg: 640x640 1 0, 67.7ms
+image 10/24 /app/Datasets/AI4griculture/test/images/1597932852369.jpg: 640x640 (no detections), 67.9ms
+image 11/24 /app/Datasets/AI4griculture/test/images/1597934907942.jpg: 640x640 1 0, 67.7ms
+image 12/24 /app/Datasets/AI4griculture/test/images/1598001129497.jpg: 640x640 5 0s, 67.7ms
+image 13/24 /app/Datasets/AI4griculture/test/images/1598008270411.jpg: 640x640 8 0s, 67.8ms
+image 14/24 /app/Datasets/AI4griculture/test/images/1598011515988.jpg: 640x640 17 0s, 67.8ms
+image 15/24 /app/Datasets/AI4griculture/test/images/1598012068631.jpg: 640x640 6 0s, 67.8ms
+image 16/24 /app/Datasets/AI4griculture/test/images/1598340934884.jpg: 640x640 (no detections), 67.8ms
+image 17/24 /app/Datasets/AI4griculture/test/images/1598343615131.jpg: 640x640 1 0, 67.8ms
+image 18/24 /app/Datasets/AI4griculture/test/images/1598346355943.jpg: 640x640 (no detections), 67.6ms
+image 19/24 /app/Datasets/AI4griculture/test/images/1599031182869.jpg: 640x640 2 0s, 67.5ms
+image 20/24 /app/Datasets/AI4griculture/test/images/1600245553180.jpg: 640x640 1 0, 67.6ms
+image 21/24 /app/Datasets/AI4griculture/test/images/1601969690309.jpg: 640x640 6 0s, 67.5ms
+image 22/24 /app/Datasets/AI4griculture/test/images/1601980429759.jpg: 640x640 1 0, 67.6ms
+image 23/24 /app/Datasets/AI4griculture/test/images/1601981598827.jpg: 640x640 (no detections), 67.6ms
+image 24/24 /app/Datasets/AI4griculture/test/images/1606994877322.jpg: 640x640 1 0, 67.6ms
+Speed: 2.1ms preprocess, 68.1ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict[0m
+Inference complete. Results saved to inference_benchmark_results.csv
