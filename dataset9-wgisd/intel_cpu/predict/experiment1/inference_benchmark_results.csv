@@ -1,0 +1,8 @@
+Metric,Value
+Total Time (End-to-End) (s),5.07
+Average Inference Time (End-to-End) (s/image),0.1689
+CPU Usage Before (%),14.3
+CPU Usage After (%),34.7
+Memory Usage Before (MB),1923.71
+Memory Usage After (MB),2357.96
+Energy Package 0 (uJ),118238650.0
