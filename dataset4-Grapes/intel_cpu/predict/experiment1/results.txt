@@ -1,0 +1,96 @@
+[W827 09:02:38.093786235 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+Loading global_model_openvino_model for OpenVINO inference...
+Using OpenVINO LATENCY mode for batch=1 inference on CPU...
+
+image 1/83 /app/Datasets/Grapes/test/images/106.jpg: 640x640 1 0, 71.3ms
+image 2/83 /app/Datasets/Grapes/test/images/11.jpg: 640x640 2 0s, 68.0ms
+image 3/83 /app/Datasets/Grapes/test/images/113.jpg: 640x640 2 0s, 68.2ms
+image 4/83 /app/Datasets/Grapes/test/images/130.jpg: 640x640 2 0s, 72.9ms
+image 5/83 /app/Datasets/Grapes/test/images/149.jpg: 640x640 1 0, 67.8ms
+image 6/83 /app/Datasets/Grapes/test/images/179.jpg: 640x640 2 0s, 67.9ms
+image 7/83 /app/Datasets/Grapes/test/images/195.jpg: 640x640 1 0, 67.8ms
+image 8/83 /app/Datasets/Grapes/test/images/211.jpg: 640x640 3 0s, 106.8ms
+image 9/83 /app/Datasets/Grapes/test/images/218.jpg: 640x640 1 0, 68.0ms
+image 10/83 /app/Datasets/Grapes/test/images/248.jpg: 640x640 2 0s, 67.6ms
+image 11/83 /app/Datasets/Grapes/test/images/257.jpg: 640x640 3 0s, 67.8ms
+image 12/83 /app/Datasets/Grapes/test/images/26.jpg: 640x640 1 0, 67.7ms
+image 13/83 /app/Datasets/Grapes/test/images/268.jpg: 640x640 2 0s, 67.9ms
+image 14/83 /app/Datasets/Grapes/test/images/279.jpg: 640x640 2 0s, 67.5ms
+image 15/83 /app/Datasets/Grapes/test/images/288.jpg: 640x640 1 0, 67.7ms
+image 16/83 /app/Datasets/Grapes/test/images/302.jpg: 640x640 2 0s, 67.6ms
+image 17/83 /app/Datasets/Grapes/test/images/303.jpg: 640x640 1 0, 67.6ms
+image 18/83 /app/Datasets/Grapes/test/images/309.jpg: 640x640 1 0, 67.7ms
+image 19/83 /app/Datasets/Grapes/test/images/319.jpg: 640x640 3 0s, 67.7ms
+image 20/83 /app/Datasets/Grapes/test/images/320.jpg: 640x640 4 0s, 88.2ms
+image 21/83 /app/Datasets/Grapes/test/images/35.jpg: 640x640 11 0s, 71.8ms
+image 22/83 /app/Datasets/Grapes/test/images/350.jpg: 640x640 2 0s, 67.6ms
+image 23/83 /app/Datasets/Grapes/test/images/36.jpg: 640x640 6 0s, 67.7ms
+image 24/83 /app/Datasets/Grapes/test/images/360.jpg: 640x640 1 0, 68.2ms
+image 25/83 /app/Datasets/Grapes/test/images/361.jpg: 640x640 2 0s, 67.6ms
+image 26/83 /app/Datasets/Grapes/test/images/362.jpg: 640x640 1 0, 67.6ms
+image 27/83 /app/Datasets/Grapes/test/images/363.jpg: 640x640 7 0s, 67.7ms
+image 28/83 /app/Datasets/Grapes/test/images/364.jpg: 640x640 1 0, 67.6ms
+image 29/83 /app/Datasets/Grapes/test/images/377.jpg: 640x640 3 0s, 88.8ms
+image 30/83 /app/Datasets/Grapes/test/images/395.jpg: 640x640 2 0s, 67.8ms
+image 31/83 /app/Datasets/Grapes/test/images/453.jpg: 640x640 2 0s, 67.4ms
+image 32/83 /app/Datasets/Grapes/test/images/46.jpg: 640x640 3 0s, 67.6ms
+image 33/83 /app/Datasets/Grapes/test/images/465.jpg: 640x640 2 0s, 67.8ms
+image 34/83 /app/Datasets/Grapes/test/images/466.jpg: 640x640 3 0s, 68.4ms
+image 35/83 /app/Datasets/Grapes/test/images/488.jpg: 640x640 1 0, 67.6ms
+image 36/83 /app/Datasets/Grapes/test/images/489.jpg: 640x640 1 0, 67.6ms
+image 37/83 /app/Datasets/Grapes/test/images/492.jpg: 640x640 1 0, 68.8ms
+image 38/83 /app/Datasets/Grapes/test/images/509.jpg: 640x640 3 0s, 67.6ms
+image 39/83 /app/Datasets/Grapes/test/images/53.jpg: 640x640 4 0s, 67.7ms
+image 40/83 /app/Datasets/Grapes/test/images/539.jpg: 640x640 4 0s, 67.4ms
+image 41/83 /app/Datasets/Grapes/test/images/548.jpg: 640x640 2 0s, 67.9ms
+image 42/83 /app/Datasets/Grapes/test/images/558.jpg: 640x640 2 0s, 67.7ms
+image 43/83 /app/Datasets/Grapes/test/images/58.jpg: 640x640 1 0, 67.6ms
+image 44/83 /app/Datasets/Grapes/test/images/580.jpg: 640x640 5 0s, 67.5ms
+image 45/83 /app/Datasets/Grapes/test/images/589.jpg: 640x640 5 0s, 67.7ms
+image 46/83 /app/Datasets/Grapes/test/images/591.jpg: 640x640 3 0s, 67.4ms
+image 47/83 /app/Datasets/Grapes/test/images/611.jpg: 640x640 3 0s, 77.8ms
+image 48/83 /app/Datasets/Grapes/test/images/613.jpg: 640x640 2 0s, 67.9ms
+image 49/83 /app/Datasets/Grapes/test/images/621.jpg: 640x640 4 0s, 67.6ms
+image 50/83 /app/Datasets/Grapes/test/images/623.jpg: 640x640 3 0s, 67.7ms
+image 51/83 /app/Datasets/Grapes/test/images/626.jpg: 640x640 1 0, 67.7ms
+image 52/83 /app/Datasets/Grapes/test/images/63.jpg: 640x640 2 0s, 73.7ms
+image 53/83 /app/Datasets/Grapes/test/images/662.jpg: 640x640 3 0s, 67.7ms
+image 54/83 /app/Datasets/Grapes/test/images/667.jpg: 640x640 4 0s, 67.9ms
+image 55/83 /app/Datasets/Grapes/test/images/682.jpg: 640x640 2 0s, 76.3ms
+image 56/83 /app/Datasets/Grapes/test/images/688.jpg: 640x640 4 0s, 67.7ms
+image 57/83 /app/Datasets/Grapes/test/images/694.jpg: 640x640 5 0s, 67.5ms
+image 58/83 /app/Datasets/Grapes/test/images/740.jpg: 640x640 2 0s, 67.9ms
+image 59/83 /app/Datasets/Grapes/test/images/76.jpg: 640x640 6 0s, 74.5ms
+image 60/83 /app/Datasets/Grapes/test/images/788.jpg: 640x640 5 0s, 67.6ms
+image 61/83 /app/Datasets/Grapes/test/images/792.jpg: 640x640 2 0s, 67.5ms
+image 62/83 /app/Datasets/Grapes/test/images/794.jpg: 640x640 1 0, 67.6ms
+image 63/83 /app/Datasets/Grapes/test/images/795.jpg: 640x640 12 0s, 68.0ms
+image 64/83 /app/Datasets/Grapes/test/images/81.jpg: 640x640 2 0s, 68.2ms
+image 65/83 /app/Datasets/Grapes/test/images/820.jpg: 640x640 2 0s, 67.7ms
+image 66/83 /app/Datasets/Grapes/test/images/823.jpg: 640x640 1 0, 67.7ms
+image 67/83 /app/Datasets/Grapes/test/images/835.jpg: 640x640 3 0s, 67.4ms
+image 68/83 /app/Datasets/Grapes/test/images/84.jpg: 640x640 3 0s, 68.0ms
+image 69/83 /app/Datasets/Grapes/test/images/846.jpg: 640x640 1 0, 68.3ms
+image 70/83 /app/Datasets/Grapes/test/images/859.jpg: 640x640 3 0s, 68.4ms
+image 71/83 /app/Datasets/Grapes/test/images/865.jpg: 640x640 2 0s, 70.6ms
+image 72/83 /app/Datasets/Grapes/test/images/870.jpg: 640x640 7 0s, 69.8ms
+image 73/83 /app/Datasets/Grapes/test/images/874.jpg: 640x640 3 0s, 68.4ms
+image 74/83 /app/Datasets/Grapes/test/images/881.jpg: 640x640 1 0, 68.8ms
+image 75/83 /app/Datasets/Grapes/test/images/887.jpg: 640x640 4 0s, 67.8ms
+image 76/83 /app/Datasets/Grapes/test/images/894.jpg: 640x640 1 0, 67.5ms
+image 77/83 /app/Datasets/Grapes/test/images/907.jpg: 640x640 2 0s, 67.8ms
+image 78/83 /app/Datasets/Grapes/test/images/914.jpg: 640x640 7 0s, 68.1ms
+image 79/83 /app/Datasets/Grapes/test/images/925.jpg: 640x640 2 0s, 68.3ms
+image 80/83 /app/Datasets/Grapes/test/images/956.jpg: 640x640 3 0s, 74.8ms
+image 81/83 /app/Datasets/Grapes/test/images/96.jpg: 640x640 3 0s, 73.0ms
+image 82/83 /app/Datasets/Grapes/test/images/965.jpg: 640x640 1 0, 67.7ms
+image 83/83 /app/Datasets/Grapes/test/images/974.jpg: 640x640 2 0s, 69.1ms
+Speed: 2.4ms preprocess, 69.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict[0m
+Inference complete. Results saved to inference_benchmark_results.csv
