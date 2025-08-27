@@ -1,0 +1,6 @@
+ultralytics
+numpy
+openvino==2024.6.0
+pyRAPL
+psutil
+pymongo>=3.9.0
