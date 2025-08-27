@@ -1,0 +1,42 @@
+path: ../Datasets
+train: 
+  # - AI4griculture/train/images
+  # - wgisd/train/images
+  # - wGrape/train/images
+  # - grapevinebunchdetection_reduced/train/images
+  # - Green_grapes/train/images
+  # - Purple_grapes/train/images
+  # - Grape_counter/train/images
+  # - Grapes_dataset/train/images
+  # - Grapes/train/images
+  # - Certh_grape_dataset_reduced/train/images
+  
+
+val: 
+  # - AI4griculture/val/images
+  # - wgisd/val/images
+  # - wGrape/val/images
+  # - grapevinebunchdetection_reduced/val/images
+  # - Green_grapes/val/images
+  # - Purple_grapes/val/images
+  # - Grape_counter/val/images
+  # - Grapes_dataset/val/images
+  # - Grapes/val/images
+  # - Certh_grape_dataset_reduced/val/images
+  
+  
+test: 
+  - AI4griculture/test/images
+  - wgisd/test/images
+  - wGrape/test/images
+  - grapevinebunchdetection_reduced/test/images
+  - Green_grapes/test/images
+  - Purple_grapes/test/images
+  - Grape_counter/test/images
+  - Grapes_dataset/test/images
+  - Grapes/test/images
+  - Certh_grape_dataset_reduced/test/images
+  
+
+nc: 1
+names: ['Grape']
